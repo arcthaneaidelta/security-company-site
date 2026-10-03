@@ -1,0 +1,85 @@
+/* ─── Northgate Protective Services — Ultra-Luxury $50k Design System ─── */
+:root {
+  /* Ultra-Luxury Obsidian & Slate Palette */
+  --bg: #0B0F17;
+  --bg-subtle: #0F1622;
+  --surface: #131B2A;
+  --surface-elevated: #182235;
+  --surface-glass: rgba(19, 27, 42, 0.75);
+  --surface-inverse: #F8F9FA;
+
+  /* Primary text & accents */
+  --text: #F1F5F9;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  --text-inverse: #0B0F17;
+
+  /* Primary palette (Deep Navy) */
+  --primary: #1E3A5F;
+  --primary-hover: #245180;
+  --primary-active: #1A3154;
+  --primary-text: #FFFFFF;
+
+  /* Accent palette (Champagne Gold) */
+  --accent: #D4AF37;
+  --accent-light: #F3E5AB;
+  --accent-gradient: linear-gradient(135deg, #E6CA65 0%, #C29B38 50%, #9E7820 100%);
+  --accent-glow: rgba(212, 175, 55, 0.25);
+  --accent-text: #E5C378;
+
+  /* Secondary Sage / Security Blue */
+  --secondary: #38BDF8;
+  --secondary-glow: rgba(56, 189, 248, 0.2);
+
+  /* Status Colors */
+  --success: #10B981;
+  --success-glow: rgba(16, 185, 129, 0.25);
+  --warning: #F59E0B;
+  --error: #EF4444;
+  --info: #3B82F6;
+
+  /* Borders & Dividers */
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.16);
+  --border-gold: rgba(212, 175, 55, 0.35);
+  --focus: #D4AF37;
+
+  /* Spacing Scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10: 128px;
+
+  /* Radius (Refined, architectural precision) */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+  --radius-pill: 999px;
+
+  /* Shadows with ambient gold and dark glow */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.65), 0 0 24px rgba(212, 175, 55, 0.08);
+  --shadow-glow: 0 0 30px rgba(212, 175, 55, 0.2);
+
+  /* Animation */
+  --dur-fast: 150ms;
+  --dur-med: 280ms;
+  --dur-slow: 500ms;
+  --ease-standard: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+  /* Z-index layers */
+  --z-header: 50;
+  --z-menu: 60;
+  --z-drawer: 80;
+  --z-modal: 90;
+  --z-toast: 100;
+  --z-loader: 200;
+}
